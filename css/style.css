@@ -16,6 +16,16 @@
     justify-content: center;
 }
 
+/* Logo */
+.logo{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+
+
+
 
 /* header */
 header{
@@ -82,14 +92,42 @@ span img{
 /* Aside */
 aside{
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 30px;
+    right: 50px;
 }
+
 .btnSignin{
     display: flex;
     justify-content: flex-end;
 }
 
+.btnSignin img{
+    margin-left: 15px;
+}
+
+.btnSignin span{
+    position: absolute;
+    left: 0;
+    top: 12px;
+}
+
+.btnSignin button{
+    padding: 10px;
+    width: 150px;
+    border-radius: 50px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(0, 140, 255);
+    border: none;
+    transition: .5s;
+}
+
+.btnSignin button:hover{
+    background-color: rgb(10, 113, 197);
+    cursor: pointer;
+    font-size: 17px;
+    transform: scale(1.1);
+}
 
 /* Footer */
 footer{
