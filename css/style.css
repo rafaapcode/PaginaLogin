@@ -1,20 +1,68 @@
 *{
     font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.container{
+    background-color: gray;
+    height: 100vh;
+}
+/* Background */
+.background{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* header */
+header{
+    position: absolute;
+    top: 330px;
+    margin-left: 50px;
+    background-color: gray;
+    height: 300px;
+}
+
+text{
+    margin-top: 150px;
+}
+.about{
+    width: 350px;
+}
+
+.text p{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.design-border{
+    margin-top: 30px;
+}
+
+.design-border li{
+    display: inline-block;
+    width: 50px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.design-border li:nth-child(2), .design-border li:nth-child(3){
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.design-border li:first-child{
+    background-color: white;
 }
 
 
 
 
 
-
-
-
-
-
-
-
-
-
+/* Main */
 .btns img{
     width: 20px;
     height: 20px;
@@ -23,7 +71,63 @@ span img{
     height: 20px;
     width: 20px;
 }
-img{
-    width: 50px;
-    height: 50px;
+
+
+
+
+
+
+
+
+/* Aside */
+aside{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
+.btnSignin{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* Footer */
+footer{
+    width: 400px;
+    margin-top: 400px;
+    margin-left: 30px;
+    background-color: gray;
+}
+.socials img{
+    width: 25px;
+    margin-left: 20px;
+}
+
+.socials li{
+    display: inline-block;
+}
+
+.copy li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 50px;
+    color: white;
+}
+
+.copy a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
