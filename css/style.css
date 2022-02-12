@@ -29,13 +29,9 @@
 }
 
 .logo img{
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
 }
-
-
-
-
 
 
 
@@ -158,8 +154,49 @@ span img{
 
 .remember span{
     margin-left: 10px;
-    color: var(--corCinza);
+    color: var(--corAzul);
+    font-weight: bold;
+    font-size: 16px;
 }
+
+.btns{
+    margin-top: 50px;
+}
+
+.btnSign-In{
+    margin-bottom: 50px;
+}
+
+.btnSign-In img{
+    margin-right: 100px;
+}
+
+.btnSign-In button{
+    width: 370px;
+    padding: 10px;
+    background-color: var(--corAzul);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.btnSign-In span{
+    position: absolute;
+    left: 150px;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+.btnSign-In button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+
 
 
 
