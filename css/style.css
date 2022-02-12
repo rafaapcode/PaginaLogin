@@ -6,6 +6,11 @@
     position: relative;
 }
 
+:root{
+    --corCinza: rgb(196, 194, 194);
+    --corAzul: rgb(0, 140, 255);
+}
+
 .container{
     background-color: gray;
     height: 100vh;
@@ -22,6 +27,14 @@
     left: 50px;
     top: 50px;
 }
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
 
 
 
@@ -41,11 +54,13 @@ text{
 }
 .about{
     width: 350px;
+    color: white;
 }
 
 .text p{
     margin-top: 10px;
     font-size: 16px;
+    color: white;
 }
 
 .design-border{
@@ -77,13 +92,74 @@ text{
     width: 20px;
     height: 20px;
 }
+
 span img{
     height: 20px;
     width: 20px;
 }
 
+.background{
+    background-color: white;
+    width: 800px;
+    height: 100vh;
+    margin-left: 550px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.salute h1{
+    margin-bottom: 10px;
+    color: rgb(38, 123, 219);
+}
 
 
+.inputs{
+    margin-top: 50px;
+    margin-right: 200px;
+}
+
+.inputs p{
+    color: var(--corCinza);
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.inputs input{
+    border: 1px solid var(--corCinza);
+    outline: none;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.inputs input::placeholder{
+    color: var(--corCinza);
+}
+
+.salute p{
+    color: var(--corCinza);
+}
+
+
+.mail input{
+    margin-bottom: 20px;
+    width: 210%;
+}
+
+.pass input{
+    width: 210%;
+}
+
+
+.remember{
+    text-align: left;
+}
+
+.remember span{
+    margin-left: 10px;
+    color: var(--corCinza);
+}
 
 
 
@@ -132,9 +208,9 @@ aside{
 /* Footer */
 footer{
     width: 400px;
-    margin-top: 400px;
+    position: absolute;
+    top: 600px;
     margin-left: 30px;
-    background-color: gray;
 }
 .socials img{
     width: 25px;
